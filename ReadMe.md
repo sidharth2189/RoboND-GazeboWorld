@@ -23,7 +23,7 @@ Inside the Gazebo world one can identify:
     ├── script                         # Gazebo World plugin C++ script      
     │   ├── welcome_message.cpp
     ├── world                          # Gazebo main World containing models 
-    │   ├── UdacityOffice.world
+    │   ├── Office.world
     ├── CMakeLists.txt                 # Link libraries 
     └──                           
 
