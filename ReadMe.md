@@ -1,5 +1,5 @@
 # Gazebo world
-The purpose of this repository is to create robotic simulated environment using Gazebo, interact with it through plugins & design models with Gazebo tools like model and building editor.
+The purpose of this repository is to create robotic simulated environment using [Gazebo](https://gazebosim.org/home), interact with it through plugins & design models with Gazebo tools like model and building editor.
 
 ## Getting Started
 
@@ -72,8 +72,6 @@ gazebo
 ## Visualize output
 
 A ```Hello World!``` message is printed in the terminal. This message interacts with the Gazebo World that includes the two-wheeled robot.
-
-<img src="images/myrobot.png"/>
 
 ## Reference repository
 
