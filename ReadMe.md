@@ -1,25 +1,31 @@
 # Gazebo world
 The purpose of this repository is to create robotic simulated environment using [Gazebo](https://gazebosim.org/home), interact with it through plugins & design models with Gazebo tools like model and building editor.
 
+## Description
+Inside the Gazebo world you can identify:
+
+* An Office environment: A building model designed on the Building Editor tool of Gazebo. The structure contains features, and colors.
+* Green humanoid robot: Two instances of a model designed on the Model Editor tool of Gazebo.
+* Tables: A model imported from the Gazebo online library.
+* Terminal: A welcome message generated from a world plugin and printed to the terminal.
+
 ## Getting Started
 
 ### Directory structure
-    .myrobot                           # myrobot lab main folder 
-    ├── images                         # Code output image                   
-    │   ├── myrobot.png
-    ├── model                          # Model files of the two-wheeled robot
-    │   ├── robot
+    .GazeboWorld                       # Build Gazebo World Project 
+    ├── model                          # Model files 
+    │   ├── Building
     │   │   ├── model.config
     │   │   ├── model.sdf
-    │   ├── mybuilding
+    │   ├── HumanoidRobot
     │   │   ├── model.config
     │   │   ├── model.sdf
     ├── script                         # Gazebo World plugin C++ script      
-    │   ├── hello.cpp
-    ├── world                          # Gazebo main World empty scene
-    │   ├── myworld
+    │   ├── welcome_message.cpp
+    ├── world                          # Gazebo main World containing models 
+    │   ├── UdacityOffice.world
     ├── CMakeLists.txt                 # Link libraries 
-    └──                              
+    └──                           
 
 ### Dependencies
 
