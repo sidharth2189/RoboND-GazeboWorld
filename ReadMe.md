@@ -80,6 +80,8 @@ gazebo
 A ```Welcome to Office World!``` message is printed in the terminal. 
 This message interacts with the Gazebo World that includes the two-wheeled robot.
 
+<img src="images/office.png"/>
+
 ## Reference repository
 
 [RoboND-myrobot](https://github.com/udacity/RoboND-myrobot)
