@@ -14,16 +14,16 @@ Inside the Gazebo world one can identify:
 ### Directory structure
     .GazeboWorld                       # Build Gazebo World Project 
     ├── model                          # Model files 
-    │   ├── Building
+    │   ├── building
     │   │   ├── model.config
     │   │   ├── model.sdf
-    │   ├── HumanoidRobot
+    │   ├── robot
     │   │   ├── model.config
     │   │   ├── model.sdf
     ├── script                         # Gazebo World plugin C++ script      
     │   ├── welcome_message.cpp
     ├── world                          # Gazebo main World containing models 
-    │   ├── Office.world
+    │   ├── office.world
     ├── CMakeLists.txt                 # Link libraries 
     └──                           
 
@@ -56,7 +56,7 @@ gazebo
     * Clone the lab folder in /home/workspace/
     ```
     cd /home/workspace/
-    git clone https://github.com/udacity/RoboND-myrobot myrobot
+    git clone https://github.com/sidharth2189/RoboND-GazeboWorld.git
     ```
     * Compile code
     ```
@@ -72,12 +72,13 @@ gazebo
     * Run Gazebo world
     ```
     cd /home/workspace/myrobot/world/
-    gazebo myworld
+    gazebo office
     ```
 
 ## Visualize output
 
-A ```Hello World!``` message is printed in the terminal. This message interacts with the Gazebo World that includes the two-wheeled robot.
+A ```Welcome to Office World!``` message is printed in the terminal. 
+This message interacts with the Gazebo World that includes the two-wheeled robot.
 
 ## Reference repository
 
