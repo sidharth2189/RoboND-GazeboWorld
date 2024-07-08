@@ -6,7 +6,7 @@ Inside the Gazebo world one can identify:
 
 * An Office environment: A building model designed on the Building Editor tool of Gazebo. The structure contains features/colors/texture and allows for enough space for a robot movement.
 * Robots: Two instances of a model designed on the Model Editor tool of Gazebo. Model links are connected with joints
-* Tables: A model imported from the Gazebo online library.
+* Tables, Bookshelves, Cafe table and even a rover: Models imported from the Gazebo online library.
 * Terminal: A welcome message generated from a world plugin and printed to the terminal, as soon as Gazebo world file is launched.
 
 ## Getting Started
@@ -55,7 +55,7 @@ gazebo
     ```
     * Clone the lab folder in /home/workspace/
     ```
-    cd /home/workspace/
+    cd /home/workspace/RoboND-GazeboWorld
     git clone https://github.com/sidharth2189/RoboND-GazeboWorld.git
     ```
     * Compile code
@@ -67,11 +67,11 @@ gazebo
     ```
     * Add the library path to the Gazebo plugin path
     ```
-    export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/myrobot/build
+    export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/RoboND-GazeboWorld/build
     ```
     * Run Gazebo world
     ```
-    cd /home/workspace/myrobot/world/
+    cd /home/workspace/RoboND-GazeboWorld/world/
     gazebo office
     ```
 
