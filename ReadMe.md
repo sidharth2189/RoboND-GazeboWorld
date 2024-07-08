@@ -78,7 +78,7 @@ gazebo
 ## Visualize output
 
 A ```Welcome to Office World!``` message is printed in the terminal. 
-This message interacts with the Gazebo World that includes the two-wheeled robot.
+This message interacts with the Gazebo World that includes the robots.
 
 <img src="images/office.png"/>
 
